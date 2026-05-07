@@ -41,13 +41,14 @@ Bashstreamlit run app.py
 ```
 
 📁 Project Structure
+```
 text├── app.py                    # Streamlit Web Interface
 ├── automation_engine.py      # Feature extraction + ML training
 ├── Training_New (1).csv      # Training dataset
 ├── phishing_model.pkl        # Trained model (auto-generated)
 ├── model_features.pkl        # Feature list
 └── README.md
-
+```
 🧠 How It Works
 The system extracts 50+ features from any URL (length, special characters, suspicious patterns, brand impersonation, etc.) and classifies it using a trained Random Forest model.
 
