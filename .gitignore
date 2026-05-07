@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project specific
+Training_New (1).csv
+*.pkl
+phishing_model.pkl
+model_features.pkl
+__pycache__/
+.streamlit/
