@@ -43,7 +43,8 @@ Bashstreamlit run app.py
 
 ## 📁 Project Structure
 ```
-text├── app.py                    # Streamlit Web Interface
+text
+├── app.py                    # Streamlit Web Interface
 ├── automation_engine.py      # Feature extraction + ML training
 ├── Training_New (1).csv      # Training dataset
 ├── phishing_model.pkl        # Trained model (auto-generated)
