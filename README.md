@@ -24,6 +24,7 @@ A modern web application that uses Machine Learning to detect phishing and malic
 ```
 git clone https://github.com/saifsahed01/AI-Powered-Phising-Malicious-URL-Detector.git
 cd AI-Powered-Phising-Malicious-URL-Detector 
+cd app
 ```
 
 2. Install requirements:
