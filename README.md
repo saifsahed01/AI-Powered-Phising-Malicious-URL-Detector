@@ -41,7 +41,7 @@ Bashstreamlit run app.py
 ```
 
 
-##📁 Project Structure
+## 📁 Project Structure
 ```
 text├── app.py                    # Streamlit Web Interface
 ├── automation_engine.py      # Feature extraction + ML training
@@ -52,11 +52,11 @@ text├── app.py                    # Streamlit Web Interface
 ```
 
 
-##🧠 How It Works
+## 🧠 How It Works
 The system extracts 50+ features from any URL (length, special characters, suspicious patterns, brand impersonation, etc.) and classifies it using a trained Random Forest model.
 
 
-##📄 License
+## 📄 License
 MIT License © 2026 Saif Sahed
 
-#Made for educational and cybersecurity awareness purposes.
+# Made for educational and cybersecurity awareness purposes.
