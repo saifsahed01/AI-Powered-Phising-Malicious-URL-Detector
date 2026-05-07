@@ -21,34 +21,42 @@ A modern web application that uses Machine Learning to detect phishing and malic
 ## 🚀 How to Run Locally
 
 1. Clone the repo:
-```bash
+```
 git clone https://github.com/saifsahed01/AI-Powered-Phising-Malicious-URL-Detector.git
-cd AI-Powered-Phising-Malicious-URL-Detector
+cd AI-Powered-Phising-Malicious-URL-Detector 
+```
+2. Install requirements:
+```
+pip install pandas numpy tldextract scikit-learn joblib streamlit
+```
 
-Install requirements:
-
-Bashpip install pandas numpy tldextract scikit-learn joblib streamlit
-
-Train the model:
-
+3. Train the model:
+```
 Bashpython automation_engine.py
+```
 
-Start the app:
-
+4. Start the app:
+```
 Bashstreamlit run app.py
+```
 
-📁 Project Structure
+
+## 📁 Project Structure
+```
 text├── app.py                    # Streamlit Web Interface
 ├── automation_engine.py      # Feature extraction + ML training
 ├── Training_New (1).csv      # Training dataset
 ├── phishing_model.pkl        # Trained model (auto-generated)
 ├── model_features.pkl        # Feature list
 └── README.md
+```
 
-🧠 How It Works
+
+## 🧠 How It Works
 The system extracts 50+ features from any URL (length, special characters, suspicious patterns, brand impersonation, etc.) and classifies it using a trained Random Forest model.
 
-📄 License
+
+## 📄 License
 MIT License © 2026 Saif Sahed
 
-Made for educational and cybersecurity awareness purposes.
+# Made for educational and cybersecurity awareness purposes.

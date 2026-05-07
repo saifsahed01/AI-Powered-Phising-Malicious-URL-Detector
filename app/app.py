@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
-from automation_engine import extract_features, predict_url
+from app.automation_engine import extract_features, predict_url
 
 st.set_page_config(page_title="AI Phishing Detector", page_icon="🛡️", layout="centered")
 
