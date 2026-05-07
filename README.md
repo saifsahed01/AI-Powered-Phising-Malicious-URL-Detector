@@ -25,9 +25,14 @@ A modern web application that uses Machine Learning to detect phishing and malic
 git clone https://github.com/saifsahed01/AI-Powered-Phising-Malicious-URL-Detector.git
 cd AI-Powered-Phising-Malicious-URL-Detector 
 ```
+
 2. Install requirements:
 ```
 pip install pandas numpy tldextract scikit-learn joblib streamlit
+```
+or
+```
+python -m pip install pandas numpy tldextract scikit-learn joblib streamlit
 ```
 
 3. Train the model:
