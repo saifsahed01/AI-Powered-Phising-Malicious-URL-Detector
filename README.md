@@ -32,12 +32,12 @@ pip install pandas numpy tldextract scikit-learn joblib streamlit
 
 3. Train the model:
 ```
-Bashpython automation_engine.py
+python automation_engine.py
 ```
 
 4. Start the app:
 ```
-Bashstreamlit run app.py
+streamlit run app.py
 ```
 
 
