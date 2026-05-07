@@ -30,7 +30,7 @@ cd AI-Powered-Phising-Malicious-URL-Detector
 pip install pandas numpy tldextract scikit-learn joblib streamlit
 ```
 
-3.Train the model:
+3. Train the model:
 ```
 Bashpython automation_engine.py
 ```
